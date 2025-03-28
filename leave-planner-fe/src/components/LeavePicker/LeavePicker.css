@@ -1,0 +1,42 @@
+/* height: 45px;
+width: 45px;
+border: 1px solid #eadada; */
+
+.rmdp-wrapper {
+    width: auto;
+    margin: 0px 20px 20px;
+
+    .rmdp-top-class {
+        .rmdp-calendar {
+            height: auto;
+            width: 100%;
+
+            .rmdp-day-picker {
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                .rmdp-week-day {
+                    height: 43px;
+                    width: 43px;
+                    border: 1px solid #cbcbcd;
+
+                }
+
+                .rmdp-day {
+                    height: 43px;
+                    width: 43px;
+                    border: 1px solid #cbcbcd;
+                }
+            }
+
+            .rmdp-day-picker>* {
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+}
+
+.footer-section {
+    justify-content: center;
+}
